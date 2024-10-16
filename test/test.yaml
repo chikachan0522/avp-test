@@ -9,7 +9,7 @@ spec:
     command: ['printenv', 'test']
     envFrom:
     - secretRef:
-      name: test
+        name: test
 
 ---
 
