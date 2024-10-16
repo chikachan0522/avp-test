@@ -20,5 +20,5 @@ metadata:
   annotations:
     avp.kubernetes.io/path: "test/data/test"
 type: Opaque
-data:
+stringData:
   TEST: <TEST>
