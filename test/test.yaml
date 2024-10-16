@@ -18,7 +18,7 @@ kind: Secret
 metadata:
   name: test
   annotations:
-    avp.kubernetes.io/path: "/v1/test/data/test"
+    avp.kubernetes.io/path: "test/data/test"
 type: Opaque
 data:
   TEST: <TEST>
