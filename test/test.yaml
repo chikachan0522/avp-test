@@ -4,7 +4,7 @@ metadata:
   name: test
   namespace: test
   annotations:
-    avp.kubernetes.io/path: "test/data/test"
+    avp.kubernetes.io/path: "k8s/data/test"
 type: Opaque
 stringData:
   TEST: <TEST>
